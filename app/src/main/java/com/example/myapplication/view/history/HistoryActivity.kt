@@ -10,11 +10,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapplication.R
-
-..example.myapplication.R
-..example.myapplication.model.ModelDatabase
-import com.azhar.absensi.view.history.HistoryAdapter.HistoryAdapterCallback
-import com.azhar.absensi.viewmodel.HistoryViewModel
+import com.example.myapplication.model.ModelDatabase
+import com.example.myapplication.view.history.HistoryAdapter.HistoryAdapterCallback
+import com.example.myapplication.viewmodel.HistoryViewModel
 import kotlinx.android.synthetic.main.activity_history.*
 
 class HistoryActivity : AppCompatActivity(), HistoryAdapterCallback {

@@ -19,14 +19,6 @@ import kotlinx.android.synthetic.main.list_history_absen.view.*
 import java.lang.String
 import kotlin.Int
 
-/**
- * Created by Azhar Rivaldi on 30-11-2021
- * Youtube Channel : https://bit.ly/2PJMowZ
- * Github : https://github.com/AzharRivaldi
- * Twitter : https://twitter.com/azharrvldi_
- * Instagram : https://www.instagram.com/azhardvls_
- * LinkedIn : https://www.linkedin.com/in/azhar-rivaldi
- */
 
 class HistoryAdapter(
     var mContext: Context,

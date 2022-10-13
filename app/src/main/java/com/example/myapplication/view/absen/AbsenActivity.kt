@@ -1,5 +1,3 @@
-package com.example.myapplication.view.absen
-
 import android.Manifest
 import android.app.DatePickerDialog
 import android.app.DatePickerDialog.OnDateSetListener
@@ -14,6 +12,7 @@ import android.os.Bundle
 import android.os.Environment
 import android.provider.MediaStore
 import android.view.MenuItem
+import android.view.View
 import android.widget.DatePicker
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -25,8 +24,6 @@ import com.example.myapplication.BuildConfig
 import com.example.myapplication.R
 import com.example.myapplication.utils.BitmapManager.bitmapToBase64
 import com.example.myapplication.viewmodel.AbsenViewModel
-
-..example.myapplication.viewmodel.AbsenViewModel
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.google.android.gms.location.LocationServices

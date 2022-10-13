@@ -5,14 +5,6 @@ import android.content.Intent
 import android.content.SharedPreferences
 import com.example.myapplication.view.login.LoginActivity
 
-/**
- * Created by Azhar Rivaldi on 28-12-2021
- * Youtube Channel : https://bit.ly/2PJMowZ
- * Github : https://github.com/AzharRivaldi
- * Twitter : https://twitter.com/azharrvldi_
- * Instagram : https://www.instagram.com/azhardvls_
- * LinkedIn : https://www.linkedin.com/in/azhar-rivaldi
- */
 
 class SessionLogin(var context: Context) {
     var pref: SharedPreferences
