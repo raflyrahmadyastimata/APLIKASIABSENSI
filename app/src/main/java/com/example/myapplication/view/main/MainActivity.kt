@@ -1,12 +1,12 @@
 package com.example.myapplication.view.main
 
+import AbsenActivity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.myapplication.utils.SessionLogin
 import com.example.myapplication.R
-import com.example.myapplication.view.absen.AbsenActivity
 import com.example.myapplication.view.history.HistoryActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
